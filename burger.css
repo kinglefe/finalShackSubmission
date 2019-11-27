@@ -25,7 +25,7 @@ nav{
 	width: 160px;
 	padding:0;
 }
-h2{
+h2, h3{
 	color:red;
 	font-weight:bold;
 	text-align: center;
@@ -35,8 +35,12 @@ dt{
 color: red;
 font-weight:bold;
 }
-dd{
+p{
 	color: black;
+}
+
+.menu-right {
+	float: right;
 }
 
 footer{
@@ -106,21 +110,21 @@ label{
 	padding-right: 1em;
 	color:black;
 }
-input,textarea { display:block;
+input,textarea { 
+	display:block;
 	margin-bottom: 1em;
- 	}
- .mySubmit{
+}
+.mySubmit {
  	margin-left: 50em;
- }
- #menufun{
+}
+#menufun{
 	height:400px;
 	background-image: url(images/menuburger.jpg);
 	background-repeat: no-repeat;
 	background-size:100% 100%;
-	
 }
 form{
-	background-color: grey;
+	color: black;
 	font-family: arial, sans-serif;
-	padding:10px;
+	padding:11px;
 }
