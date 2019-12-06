@@ -1,0 +1,29 @@
+/* Custom Fonts */
+@font-face {
+    font-family: Kayak;
+    src: url(/Fonts/kayakRegular.otf);
+}
+@font-face {
+    font-family: Kayak Bold;
+    src: url(/Fonts/kayakBold.otf);
+}
+
+/* Setting up fonts for the Theme */
+h1, h2, h3, .navbar-brand{
+    font-family: Kayak Bold;
+}
+
+p, h4, h5, a, span, i {
+    font-family: Kayak;
+}
+#leadTitle {
+    font-size: 3em;
+}
+
+@media screen and (max-width : 800) {
+    nav, #wrapper {
+        display: inline-block;
+        width: 100%;
+    }
+
+}
